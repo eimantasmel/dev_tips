@@ -1,0 +1,9 @@
+{
+  "editor.fontLigatures": false,
+  "php.debug.executablePath": "/usr/local/bin/php",
+  "files.trimTrailingWhitespaceInRegexAndStrings": false,
+  "editor.formatOnSave": false,
+  "search.exclude": {
+    "**/node_modules": false
+  }
+}
