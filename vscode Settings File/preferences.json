@@ -1,0 +1,44 @@
+{
+  "terminal.integrated.automationShell.linux": "",
+  "omnisharp.useGlobalMono": "always",
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableAsyncCompletion": true,
+  "dotnet.diagnostics.enableFastCheck": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+  },
+  "python.formatting.provider": "black",
+  "solidity.compileUsingRemoteVersion": "0.8.0",
+  "tabnine.experimentalAutoImports": true,
+  "json.format.enable": false,
+  "files.trimTrailingWhitespaceInRegexAndStrings": false,
+  "workbench.settings.applyToAllProfiles": [
+
+  ],
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  "dotnetAcquisitionExtension.existingDotnetPath": [
+    {
+      "extensionId": "ms-dotnettools.csharp",
+      "path": "/usr/share/dotnet/dotnet"
+    }
+  ],
+  "mssql.connections": [
+    {
+      "connectionString": "Server=localhost;Database=rapid_notes_db;Trusted_Connection=True;TrustServerCertificate=True;",
+      "profileName": "rapid_notes_db",
+      "database": "rapid_notes_db",
+      "user": "",
+      "server": "localhost",
+      "authenticationType": "Integrated",
+      "password": ""
+    }
+  ],
+  "mssql.objectExplorer.groupBySchema": false,
+  "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true
+}
